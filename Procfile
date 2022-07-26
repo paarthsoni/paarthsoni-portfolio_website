@@ -1,1 +1,1 @@
-web: gunicorn paarthsoni-portfolio.wsgi --log-file -
+web: gunicorn paarthsoni.wsgi --log-file -
