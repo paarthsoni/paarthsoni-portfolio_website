@@ -4,4 +4,6 @@ from django.urls import path
 from Portfolio import views
 urlpatterns = [
     path('', views.index, name="home"),
+    path('message', views.message, name="message"),
+
 ]

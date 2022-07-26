@@ -1,6 +1,9 @@
 {% load static %}
+
+
 <!doctype html>
 <html class="no-js" lang="en">
+
 
 <head>
 	<!-- meta data -->
@@ -56,12 +59,15 @@
 
 </head>
 
+
+
 <body>
 	<!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
 	<!-- top-area Start -->
+
 	<header class="top-area">
 		<div class="header-area">
 			<!-- Start Navigation -->
@@ -88,16 +94,17 @@
 							<li class="smooth-menu"><a href="#experience">experience</a></li>
 							<li class="smooth-menu"><a href="#profiles">profile</a></li>
 							<li class="smooth-menu"><a href="#portfolio">portfolio</a></li>
-							<li class="smooth-menu"><a href="#clients">clients</a></li>
 							<li class="smooth-menu"><a href="#contact">contact</a></li>
 						</ul>
 						<!--/.nav -->
 					</div><!-- /.navbar-collapse -->
 				</div>
 				<!--/.container-->
+				{% include 'message.html' %}
 			</nav>
 			<!--/nav-->
 			<!-- End Navigation -->
+
 		</div>
 		<!--/.header-area-->
 
@@ -108,6 +115,7 @@
 
 	<!--welcome-hero start -->
 	<section id="welcome-hero" class="welcome-hero">
+
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12 text-center">
@@ -231,8 +239,8 @@
 					<div class="col-sm-4">
 						<div class="single-horizontal-timeline">
 							<div class="experience-time">
-								<h2>2008 - 2010</h2>
-								<h3>master <span>of </span> computer science</h3>
+								<h2>2006 - 2018</h2>
+								<h3>Secondary School Certificate</h3>
 							</div>
 							<!--/.experience-time-->
 							<div class="timeline-horizontal-border">
@@ -242,12 +250,11 @@
 							<div class="timeline">
 								<div class="timeline-content">
 									<h4 class="title">
-										university of north carolina
+										Dr.Sarvepalli Radhakrishnan Vidyalaya
 									</h4>
-									<h5>north carolina, USA</h5>
+									<h5>Mumbai, India</h5>
 									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+										Score: 92.4%<br>Rank holder in National Cadet Corps(NCC)
 									</p>
 								</div>
 								<!--/.timeline-content-->
@@ -258,8 +265,8 @@
 					<div class="col-sm-4">
 						<div class="single-horizontal-timeline">
 							<div class="experience-time">
-								<h2>2004 - 2008</h2>
-								<h3>bachelor <span>of </span> computer science</h3>
+								<h2>2018 - 2020</h2>
+								<h3>Higher Secondary Certificate</h3>
 							</div>
 							<!--/.experience-time-->
 							<div class="timeline-horizontal-border">
@@ -269,12 +276,11 @@
 							<div class="timeline">
 								<div class="timeline-content">
 									<h4 class="title">
-										university of north carolina
+										N.M.F College of Commerce and Science
 									</h4>
-									<h5>north carolina, USA</h5>
+									<h5>Mumbai, India</h5>
 									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+										Score: 87.38%
 									</p>
 								</div>
 								<!--/.timeline-content-->
@@ -285,8 +291,8 @@
 					<div class="col-sm-4">
 						<div class="single-horizontal-timeline">
 							<div class="experience-time">
-								<h2>2004 - 2008</h2>
-								<h3>bachelor <span>of </span> creative design</h3>
+								<h2>2020 - 2024</h2>
+								<h3>Bachelor <span>of </span> Technology</h3>
 							</div>
 							<!--/.experience-time-->
 							<div class="timeline-horizontal-border">
@@ -297,12 +303,11 @@
 							<div class="timeline">
 								<div class="timeline-content">
 									<h4 class="title">
-										university of bolton
+										K.J Somaiya College of Engineering
 									</h4>
-									<h5>bolton, united kingdome</h5>
+									<h5>Mumbai, India</h5>
 									<p class="description">
-										Duis aute irure dolor in reprehenderit in vol patate velit esse cillum dolore eu
-										fugiat nulla pari. Excepteur sint occana inna tecat cupidatat non proident.
+										Sem 4 SGPI: 9.0<br>Part of Technical Team in Entrepreneurship Cell Bloombox
 									</p>
 								</div>
 								<!--/.timeline-content-->
@@ -329,19 +334,31 @@
 					<div class="col-md-6">
 						<div class="single-skill-content">
 							<div class="barWrapper">
-								<span class="progressText">adobe photoshop</span>
+								<span class="progressText">Django</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
-										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
 											aria-valuemin="10" aria-valuemax="100" style="">
 
 										</div>
 									</div>
-									<h3>90%</h3>
+									<h3>80%</h3>
 								</div>
 							</div><!-- /.barWrapper -->
 							<div class="barWrapper">
-								<span class="progressText">adobe illustrator</span>
+								<span class="progressText">Python</span>
+								<div class="single-progress-txt">
+									<div class="progress ">
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
+											aria-valuemin="10" aria-valuemax="100" style="">
+
+										</div>
+									</div>
+									<h3>80%</h3>
+								</div>
+							</div><!-- /.barWrapper -->
+							<div class="barWrapper">
+								<span class="progressText">C</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
 										<div class="progress-bar" role="progressbar" aria-valuenow="85"
@@ -353,27 +370,15 @@
 								</div>
 							</div><!-- /.barWrapper -->
 							<div class="barWrapper">
-								<span class="progressText">adobe after effects</span>
+								<span class="progressText">Java</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
-										<div class="progress-bar" role="progressbar" aria-valuenow="97"
+										<div class="progress-bar" role="progressbar" aria-valuenow="50"
 											aria-valuemin="10" aria-valuemax="100" style="">
 
 										</div>
 									</div>
-									<h3>97%</h3>
-								</div>
-							</div><!-- /.barWrapper -->
-							<div class="barWrapper">
-								<span class="progressText">sketch</span>
-								<div class="single-progress-txt">
-									<div class="progress ">
-										<div class="progress-bar" role="progressbar" aria-valuenow="90"
-											aria-valuemin="10" aria-valuemax="100" style="">
-
-										</div>
-									</div>
-									<h3>90%</h3>
+									<h3>50%</h3>
 								</div>
 							</div><!-- /.barWrapper -->
 						</div>
@@ -381,7 +386,7 @@
 					<div class="col-md-6">
 						<div class="single-skill-content">
 							<div class="barWrapper">
-								<span class="progressText">html 5</span>
+								<span class="progressText">Html 5</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
 										<div class="progress-bar" role="progressbar" aria-valuenow="90"
@@ -393,7 +398,7 @@
 								</div>
 							</div><!-- /.barWrapper -->
 							<div class="barWrapper">
-								<span class="progressText">css 3 animation</span>
+								<span class="progressText">CSS3</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
 										<div class="progress-bar" role="progressbar" aria-valuenow="85"
@@ -405,27 +410,27 @@
 								</div>
 							</div><!-- /.barWrapper -->
 							<div class="barWrapper">
-								<span class="progressText">communication</span>
+								<span class="progressText">JavaScript</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
-										<div class="progress-bar" role="progressbar" aria-valuenow="97"
+										<div class="progress-bar" role="progressbar" aria-valuenow="50"
 											aria-valuemin="10" aria-valuemax="100" style="">
 
 										</div>
 									</div>
-									<h3>97%</h3>
+									<h3>50%</h3>
 								</div>
 							</div><!-- /.barWrapper -->
 							<div class="barWrapper">
-								<span class="progressText"> creativity</span>
+								<span class="progressText">PostgreSQL</span>
 								<div class="single-progress-txt">
 									<div class="progress ">
-										<div class="progress-bar" role="progressbar" aria-valuenow="90"
+										<div class="progress-bar" role="progressbar" aria-valuenow="80"
 											aria-valuemin="10" aria-valuemax="100" style="">
 
 										</div>
 									</div>
-									<h3>90%</h3>
+									<h3>80%</h3>
 								</div>
 							</div><!-- /.barWrapper -->
 						</div>
@@ -452,8 +457,8 @@
 								<div class="row">
 									<div class="col-md-5">
 										<div class="experience-time text-right">
-											<h2>2018 - Present</h2>
-											<h3>creative director</h3>
+											<h2>April 2022 - July 2022</h2>
+											<h3>Engage Mentee</h3>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -463,13 +468,16 @@
 											<div class="timeline-content">
 												<h4 class="title">
 													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
+													Microsoft
 												</h4>
-												<h5>newyork, USA</h5>
+												<h5>Mumbai, India</h5>
 												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
+													Was a part of Microsoft Engage mentorship program organized by
+													Microsoft India.
+													Developed an e-commerce web Application with facial recognition
+													features for added security for payments, adding money to
+													application wallet and user authentication
+													system.
 												</p>
 											</div>
 											<!--/.timeline-content-->
@@ -489,9 +497,9 @@
 										<div class="experience-time">
 											<h2>
 												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2016 - 2018
+												Sept 2021 - Nov 2021
 											</h2>
-											<h3>associate design director</h3>
+											<h3>Web Developer</h3>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -500,13 +508,16 @@
 										<div class="timeline">
 											<div class="timeline-content text-right">
 												<h4 class="title">
-													hoplony tech limited
+													Moshak Tech Pvt.Ltd
 												</h4>
-												<h5>newyork, USA</h5>
+												<h5>Mumbai, India</h5>
 												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
+													Developed the frontend and revamped the company's website.<br>
+													Used technologies like HTML,CSS ,Javascript for developing The
+													frontend of website.<br>
+													Was in Continuous contact with the graphics team for the the website
+													development.<br>
+													Tech Stack Used: HTML, CSS, Bootstrap, JavaScript.
 												</p>
 											</div>
 											<!--/.timeline-content-->
@@ -518,9 +529,9 @@
 										<div class="experience-time">
 											<h2>
 												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2016 - 2018
+												Sept 2021 - Nov 2021
 											</h2>
-											<h3>associate design director</h3>
+											<h3>Web Developer</h3>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -535,8 +546,8 @@
 								<div class="row">
 									<div class="col-md-5">
 										<div class="experience-time text-right">
-											<h2>2013 - 2016</h2>
-											<h3>senior UI/UX designer</h3>
+											<h2>Aug 2021 - Sept 2021</h2>
+											<h3>Web Developer</h3>
 										</div>
 										<!--/.experience-time-->
 									</div>
@@ -546,13 +557,16 @@
 											<div class="timeline-content">
 												<h4 class="title">
 													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
+													The Sparks Foundation
 												</h4>
-												<h5>newyork, USA</h5>
+												<h5>Mumbai, India</h5>
 												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
+													Developed a full stack web application which allows transfer of
+													money between multiple users.<br>
+													Applications was developed using django framework <br>Link:
+													https://sparks-bankingsystem-app.herokuapp.com<br>
+													Tech Stack Used: - HTML, CSS, Bootstrap, Django, Python, Sqlite3
+
 												</p>
 											</div>
 											<!--/.timeline-content-->
@@ -565,88 +579,7 @@
 							<!--/.single-timeline-box-->
 						</li>
 
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-offset-1 col-md-5 experience-time-responsive">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2012 - 2013
-											</h2>
-											<h3>UI/UX designer</h3>
-										</div>
-										<!--/.experience-time-->
-									</div>
-									<!--/.col-->
-									<div class="col-md-5">
-										<div class="timeline">
-											<div class="timeline-content text-right">
-												<h4 class="title">
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div>
-											<!--/.timeline-content-->
-										</div>
-										<!--/.timeline-->
-									</div>
-									<!--/.col-->
-									<div class="col-md-offset-1 col-md-5 experience-time-main">
-										<div class="experience-time">
-											<h2>
-												<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-												2012 - 2013
-											</h2>
-											<h3>UI/UX designer</h3>
-										</div>
-										<!--/.experience-time-->
-									</div>
-									<!--/.col-->
-								</div>
-							</div>
-							<!--/.single-timeline-box-->
-						</li>
 
-						<li>
-							<div class="single-timeline-box fix">
-								<div class="row">
-									<div class="col-md-5">
-										<div class="experience-time text-right">
-											<h2>2010 - 2012</h2>
-											<h3>frontend developer</h3>
-										</div>
-										<!--/.experience-time-->
-									</div>
-									<!--/.col-->
-									<div class="col-md-offset-1 col-md-5">
-										<div class="timeline">
-											<div class="timeline-content">
-												<h4 class="title">
-													<span><i class="fa fa-circle" aria-hidden="true"></i></span>
-													hoplony tech limited
-												</h4>
-												<h5>newyork, USA</h5>
-												<p class="description">
-													Duis aute irure dolor in reprehenderit in vol patate velit esse
-													cillum dolore eu fugiat nulla pari. Excepteur sint occana inna tecat
-													cupidatat non proident.
-												</p>
-											</div>
-											<!--/.timeline-content-->
-										</div>
-										<!--/.timeline-->
-									</div>
-									<!--/.col-->
-								</div>
-							</div>
-							<!--/.single-timeline-box-->
-						</li>
 
 					</ul>
 				</div>
@@ -671,13 +604,15 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-themeforest"></i></a>
-									<div class="profile-icon-name">themeforest</div>
+									<a href="https://www.facebook.com/profile.php?id=100006573494668" target="_blank"><i
+											class="fa fa-facebook"></i></a>
+									<div class="profile-icon-name">Facebook</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-themeforest"></i></a>
-										<div class="profile-icon-name">themeforest</div>
+										<a href="https://www.facebook.com/profile.php?id=100006573494668"
+											target="_blank"><i class="fa fa-facebook"></i></a>
+										<div class="profile-icon-name">Facebook</div>
 									</div>
 								</div>
 							</div>
@@ -685,13 +620,15 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-dribbble"></i></a>
-									<div class="profile-icon-name">dribbble</div>
+									<a href="https://www.instagram.com/paarth.sonii/" target="_blank"><i
+											class="fa fa-instagram"></i></a>
+									<div class="profile-icon-name">Instagram</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-dribbble"></i></a>
-										<div class="profile-icon-name">dribbble</div>
+										<a href="https://www.instagram.com/paarth.sonii/" target="_blank"><i
+												class="fa fa-instagram"></i></a>
+										<div class="profile-icon-name">Instagram</div>
 									</div>
 								</div>
 							</div>
@@ -699,13 +636,15 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-behance-logo"></i></a>
-									<div class="profile-icon-name">behance</div>
+									<a href="https://www.linkedin.com/in/paarthsoni/" target="_blank"><i
+											class="fa fa-linkedin"></i></a>
+									<div class="profile-icon-name">Linkedin</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-behance-logo"></i></a>
-										<div class="profile-icon-name">behance</div>
+										<a href="https://www.linkedin.com/in/paarthsoni/" target="_blank"><i
+												class="fa fa-linkedin"></i></a>
+										<div class="profile-icon-name">Linkedin</div>
 									</div>
 								</div>
 							</div>
@@ -713,13 +652,15 @@
 						<div class="col-sm-3">
 							<div class="single-profile profile-no-border">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-github-logo"></i></a>
-									<div class="profile-icon-name">github</div>
+									<a href="https://github.com/paarthsoni" target="_blank"><i
+											class="flaticon-github-logo"></i></a>
+									<div class="profile-icon-name">Github</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-github-logo"></i></a>
-										<div class="profile-icon-name">github</div>
+										<a href="https://github.com/paarthsoni" target="_blank"><i
+												class="flaticon-github-logo"></i></a>
+										<div class="profile-icon-name">Github</div>
 									</div>
 								</div>
 							</div>
@@ -730,13 +671,13 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-flickr-website-logo-silhouette"></i></a>
-									<div class="profile-icon-name">flickR</div>
+									<a href="mailto:paarth2812@gmail.com"><i class="fa fa-envelope"></i></a>
+									<div class="profile-icon-name">Gmail</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-flickr-website-logo-silhouette"></i></a>
-										<div class="profile-icon-name">flickR</div>
+										<a href="mailto:paarth2812@gmail.com"><i class="fa fa-envelope"></i></a>
+										<div class="profile-icon-name">Gmail</div>
 									</div>
 								</div>
 							</div>
@@ -744,13 +685,15 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-smug"></i></a>
-									<div class="profile-icon-name">smungMung</div>
+									<a href="https://api.whatsapp.com/send?phone=+919152091325" target="_blank"><i
+											class="fa fa-whatsapp"></i></a>
+									<div class="profile-icon-name">Whatsapp</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-smug"></i></a>
-										<div class="profile-icon-name">smungMung</div>
+										<a href="https://api.whatsapp.com/send?phone=+919152091325" target="_blank"><i
+												class="fa fa-whatsapp"></i></a>
+										<div class="profile-icon-name">Whatsapp</div>
 									</div>
 								</div>
 							</div>
@@ -758,13 +701,13 @@
 						<div class="col-sm-3">
 							<div class="single-profile">
 								<div class="profile-txt">
-									<a href=""><i class="flaticon-squarespace-logo"></i></a>
-									<div class="profile-icon-name">squareSpace</div>
+									<a href="tel:9152091325" target="_blank"><i class="fa fa-phone"></i></a>
+									<div class="profile-icon-name">Phone</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i class="flaticon-squarespace-logo"></i></a>
-										<div class="profile-icon-name">squareSpace</div>
+										<a href="tel:9152091325" target="_blank"><i class="fa fa-phone"></i></a>
+										<div class="profile-icon-name">Phone</div>
 									</div>
 								</div>
 							</div>
@@ -772,15 +715,13 @@
 						<div class="col-sm-3">
 							<div class="single-profile profile-no-border">
 								<div class="profile-txt">
-									<a href=""><i
-											class="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-									<div class="profile-icon-name">bitBucket</div>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+									<div class="profile-icon-name">Twitter</div>
 								</div>
 								<div class="single-profile-overlay">
 									<div class="profile-txt">
-										<a href=""><i
-												class="flaticon-bitbucket-logotype-camera-lens-in-perspective"></i></a>
-										<div class="profile-icon-name">bitBucket</div>
+										<a href="#"><i class="fa fa-twitter"></i></a>
+										<div class="profile-icon-name">Twitter</div>
 									</div>
 								</div>
 							</div>
@@ -798,7 +739,7 @@
 	<section id="portfolio" class="portfolio">
 		<div class="portfolio-details">
 			<div class="section-heading text-center">
-				<h2>portfolio</h2>
+				<h2>Projects</h2>
 			</div>
 			<div class="container">
 				<div class="portfolio-content">
@@ -807,29 +748,18 @@
 
 							<div class="col-sm-4">
 								<div class="item">
-									<img src="assets/images/portfolio/p1.jpg" alt="portfolio image" />
+									<img src="{% static 'images/portfolio/bank.jpg' %}" alt="portfolio image" />
 									<div class="isotope-overlay">
-										<a href="#">
-											ui/ux design
+										<a href="https://sparks-bankingsystem-app.herokuapp.com" target="_blank">
+											Banking System
 										</a>
 									</div><!-- /.isotope-overlay -->
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/portfolio/p2.jpg" alt="portfolio image" />
+									<img src="{% static 'images/portfolio/todo.jpg' %}" alt="portfolio image" />
 									<div class="isotope-overlay">
-										<a href="#">
-											ui/ux design
-										</a>
-									</div><!-- /.isotope-overlay -->
-								</div><!-- /.item -->
-							</div><!-- /.col -->
-
-							<div class="col-sm-4">
-								<div class="item">
-									<img src="assets/images/portfolio/p3.jpg" alt="portfolio image" />
-									<div class="isotope-overlay">
-										<a href="#">
-											web design
+										<a href="https://tasklist-todo.herokuapp.com" target="_blank">
+											Todo Application
 										</a>
 									</div><!-- /.isotope-overlay -->
 								</div><!-- /.item -->
@@ -837,18 +767,34 @@
 
 							<div class="col-sm-4">
 								<div class="item">
-									<img src="assets/images/portfolio/p4.jpg" alt="portfolio image" />
+									<img src="{% static 'images/portfolio/bloombox.jpg' %}" alt="portfolio image" />
+									<div class="isotope-overlay">
+										<a href="https://www.bloomboxkjsce.com/" target="_blank">
+											Bloombox E-Cell Kjsce Website
+										</a>
+									</div><!-- /.isotope-overlay -->
+								</div><!-- /.item -->
+							</div><!-- /.col -->
+
+							<div class="col-sm-4">
+								<div class="item">
+									<img src="{% static 'images/portfolio/cp.png' %}" alt="portfolio image" />
 									<div class="isotope-overlay">
 										<a href="#">
-											web development
+											All in one CP<br>A Web Application developed using Django which integrates
+											different Competitive coding platforms where user can see his/her perfomance
+											on different platforms and all can solve problems of different platforms. By
+											this it becomes easy for user to get all things at one place and save the
+											navigation time
+
 										</a>
 									</div><!-- /.isotope-overlay -->
 								</div><!-- /.item -->
 								<div class="item">
-									<img src="assets/images/portfolio/p5.jpg" alt="portfolio image" />
+									<img src="{% static 'images/portfolio/portfolio.jpg' %}" alt="portfolio image" />
 									<div class="isotope-overlay">
-										<a href="#">
-											web development
+										<a href="https://portfolio-website-23e4a.firebaseapp.com/" target="_blank">
+											Portfolio Website
 										</a>
 									</div><!-- /.isotope-overlay -->
 								</div><!-- /.item -->
@@ -867,69 +813,7 @@
 	<!--/.portfolio-->
 	<!--portfolio end -->
 
-	<!--clients start -->
-	<section id="clients" class="clients">
-		<div class="section-heading text-center">
-			<h2>clients</h2>
-		</div>
-		<div class="clients-area">
-			<div class="container">
-				<div class="owl-carousel owl-theme" id="client">
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c1.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c2.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c3.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c4.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c5.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c6.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-					<div class="item">
-						<a href="#">
-							<img src="assets/images/clients/c7.png" alt="brand-image" />
-						</a>
-					</div>
-					<!--/.item-->
-				</div>
-				<!--/.owl-carousel-->
-			</div>
-			<!--/.container-->
-		</div>
-		<!--/.clients-area-->
 
-	</section>
-	<!--/.clients-->
-
-	</section>
-	<!--/.clients-->
-	<!--clients end -->
 
 	<!--contact start -->
 	<section id="contact" class="contact">
@@ -942,12 +826,14 @@
 					<div class="col-md-offset-1 col-md-5 col-sm-6">
 						<div class="single-contact-box">
 							<div class="contact-form">
-								<form>
+
+								<form action="/message" method="post">
+									{% csrf_token %}
 									<div class="row">
 										<div class="col-sm-6 col-xs-12">
 											<div class="form-group">
 												<input type="text" class="form-control" id="name" placeholder="Name*"
-													name="name">
+													name="name" required>
 											</div>
 											<!--/.form-group-->
 										</div>
@@ -955,7 +841,7 @@
 										<div class="col-sm-6 col-xs-12">
 											<div class="form-group">
 												<input type="email" class="form-control" id="email" placeholder="Email*"
-													name="email">
+													name="email" required>
 											</div>
 											<!--/.form-group-->
 										</div>
@@ -966,7 +852,7 @@
 										<div class="col-sm-12">
 											<div class="form-group">
 												<input type="text" class="form-control" id="subject"
-													placeholder="Subject" name="subject">
+													placeholder="Subject*" name="subject" required>
 											</div>
 											<!--/.form-group-->
 										</div>
@@ -977,7 +863,7 @@
 										<div class="col-sm-12">
 											<div class="form-group">
 												<textarea class="form-control" rows="8" id="comment"
-													placeholder="Message"></textarea>
+													placeholder="Message*" name="message" required></textarea>
 											</div>
 											<!--/.form-group-->
 										</div>
@@ -987,7 +873,8 @@
 									<div class="row">
 										<div class="col-sm-12">
 											<div class="single-contact-btn">
-												<a class="contact-btn" href="#" role="button">submit</a>
+
+												<button type="submit" class="contact-btn">submit</button>
 											</div>
 											<!--/.single-single-contact-btn-->
 										</div>
@@ -1006,26 +893,26 @@
 						<div class="single-contact-box">
 							<div class="contact-adress">
 								<div class="contact-add-head">
-									<h3>browny star</h3>
-									<p>uI/uX designer</p>
+									<h3>Paarth Soni</h3>
+									<p>Software Developer & IT Engineer</p>
 								</div>
 								<div class="contact-add-info">
 									<div class="single-contact-add-info">
 										<h3>phone</h3>
-										<p>987-123-6547</p>
+										<p>(+91) 9152091325</p>
 									</div>
 									<div class="single-contact-add-info">
 										<h3>email</h3>
-										<p>browny@info.com</p>
+										<p>paarth2812@gmail.com</p>
 									</div>
 									<div class="single-contact-add-info">
 										<h3>website</h3>
-										<p>www.brownsine.com</p>
+										<p>https://portfolio-website-23e4a.firebaseapp.com/</p>
 									</div>
 								</div>
 							</div>
 							<!--/.contact-adress-->
-							<div class="hm-foot-icon">
+							{% comment %} <div class="hm-foot-icon">
 								<ul>
 									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 									<!--/li-->
@@ -1039,7 +926,7 @@
 									<!--/li-->
 								</ul>
 								<!--/ul-->
-							</div>
+							</div> {% endcomment %}
 							<!--/.hm-foot-icon-->
 						</div>
 						<!--/.single-contact-box-->
@@ -1061,8 +948,7 @@
 		<div class="container">
 			<div class="hm-footer-copyright text-center">
 				<p>
-					&copy; copyright yourname. design and developed by <a
-						href="https://www.themesine.com/">themesine</a>
+					&copy; copyright Paarth Soni. design and developed by Paarth Soni
 				</p>
 				<!--/p-->
 			</div>
