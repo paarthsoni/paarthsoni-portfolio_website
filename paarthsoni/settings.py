@@ -29,7 +29,8 @@ SECRET_KEY = 'django-insecure-^=5$q)f%l^dk&)6mz@140gfw_f+u#mvk5fx(1uf%06m&cw^8-+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'paarthsoni.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1',
+                 'paarthsoni.herokuapp.com', '.vercel.app', 'now.sh']
 MESSAGE_TAGS = {
     messages.DEBUG: 'alert-secondary',
     messages.INFO: 'alert-info',
