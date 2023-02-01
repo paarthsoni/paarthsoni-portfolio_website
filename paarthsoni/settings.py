@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-^=5$q)f%l^dk&)6mz@140gfw_f+u#mvk5fx(1uf%06m&cw^8-+
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                 'paarthsoni.herokuapp.com', '.vercel.app', 'now.sh']
+                 'paarthsoni.herokuapp.com', '.vercel.app', 'now.sh','paarthsoni.pythonanywhere.com']
 MESSAGE_TAGS = {
     messages.DEBUG: 'alert-secondary',
     messages.INFO: 'alert-info',
@@ -90,7 +90,7 @@ WSGI_APPLICATION = 'paarthsoni.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': str(BASE_DIR / 'db.sqlite3'),
     }
 }
 
