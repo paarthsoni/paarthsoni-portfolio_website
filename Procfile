@@ -1,0 +1,1 @@
+web: gunicorn paarthsoni.wsgi
